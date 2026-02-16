@@ -41,6 +41,7 @@ app.get('/api/users/{id}', async (req,res) =>{
         // res.send({"message" : "working.."});
         const {id}=req.params;
         console.log(id);
+        res.send({'message':'user not found'});
     
 })
 
